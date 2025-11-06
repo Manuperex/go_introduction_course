@@ -98,5 +98,36 @@ func main() {
 	// } 
 	// 	fmt.Println("Los valores del array son: ", arrayFinish)
 
-	
+		// Go Bases Tarea 4 - Dificultad: 4.3/5
+	var arrayCode []string
+
+	mapCode := map[string]string{
+		"10" : "notebook",
+		"15" : "tv",
+		"21" : "heladera",
+		"27" : "monitor",
+		"35" : "camara", 
+	}
+
+	for  {
+		var value string
+		fmt.Scanf("%s", &value)
+
+		if value == "0" {
+			break
+		}
+		value, exist := mapCode[value]
+		if exist {
+			fmt.Println(value)
+			arrayCode = append(arrayCode, value)
+		} else {
+			fmt.Println("No encontrado")
+			arrayCode = append(arrayCode, "No encontrado")
+		}
+		
+
+	} 
+	fmt.Println("Los valores del array son: ", arrayCode)
+
+
 }
