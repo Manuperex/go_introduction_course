@@ -69,4 +69,16 @@ func main() {
 		fmt.Println()
 	}
 
+	// Go Bases Tarea 2 - Dificultad: 2/5
+	array := [5]int{4, 2, 5, 6, 7}
+
+    // realizar la funcionalidad
+
+	for i := range array {
+		array[i] += 20
+		fmt.Println("Index: ", i, " - Value practica: ", array[i])
+	} 
+
+    fmt.Println("Los valores del array son: ", array)
+
 }
