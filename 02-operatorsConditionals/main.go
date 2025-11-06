@@ -100,4 +100,17 @@ func main() {
 	case number == 0:
 		fmt.Println("zero")
 	}
+
+ // Ejercicio Go Bases Tarea 1 - Dificultad: 2.5/5
+	license := false
+	age := 19
+
+	if license && age > 15 {
+		fmt.Println("Puede seguir avanzando")
+	} else {
+		fmt.Println("No puede seguir circulando")
+	}
+
+	// Rsuelto
 }
+
