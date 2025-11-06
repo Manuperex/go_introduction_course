@@ -81,4 +81,22 @@ func main() {
 
     fmt.Println("Los valores del array son: ", array)
 
+
+	// Go Bases Tarea 3 - Dificultad: 3.5/5
+
+	// var arrayFinish []string
+
+	// 	for  {
+	// 		var value string
+	// 	fmt.Scanf("%s", &value)
+
+	// 	if value == "0" {
+	// 		break
+	// 	}
+		
+	// 	arrayFinish = append(arrayFinish, value)
+	// } 
+	// 	fmt.Println("Los valores del array son: ", arrayFinish)
+
+	
 }
